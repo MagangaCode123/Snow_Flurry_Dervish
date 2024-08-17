@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8ff795aee8.js" crossorigin="anonymous"></script>
+    <title>Tailwind CSS with HTML</title>
+</head>
+<body>
+    <div class="flex gap-4 justify-evenly items-center bg-[rgb(200,174,140)] text-white text-xs font-semibold">
+        <div class="flex gap-2">
+            <div>
+                <i class="fa-solid fa-phone"></i>
+            </div>
+            <div>
+                <p>+25478927387</p>
+            </div>
+           
+            
+        </div>
+        <div>
+            <p>Free shipping on all orders 49$+/Express</p>
+        </div>
+        <div class="flex gap-4 py-4">
+          <div>
+            <i class="fa-brands fa-square-facebook"></i>
+          </div>
+          <div>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <div>
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+          <div>
+            <i class="fa-brands fa-pinterest"></i>
+          </div>
+       
+        </div>
+        <div></div>
+       
+    </div>
+    <div class="flex justify-around items-center border py-4 shadow-md">
+        <div>
+            <p class="text-red-500 text-4xl font-bold">mai<span class="text-blue-400">z</span><span class="text-green-400">o</span></p>
+        </div>
+        <div class="flex relative items-center">
+            <div>
+                <input placeholder="Search" class="border border-[rgb(236,40,69)] w-[450px] rounded-full shadow-lg px-6 py-2" type="text">
+            </div>
+            <div class="absolute right-[-2px]  rounded-lg px-4">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            
+           
+        </div>
+        <div class="flex gap-4">
+            <div class="flex relative">
+                <div>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="absolute top-[-20px] right-[-18px]">
+                    <span class="text-xs bg-red-600 rounded-full p-1.5 text-white">12</span>
+                </div>
+                
+            </div>
+            <div>
+                $4556
+            </div>
+        </div>
+        <div>
+            <p>Login/Register</p>
+        </div>
+        
+    </div>
+    <div class="bg-[rgb(233,233,237)] flex justify-around m-0 py-2 font-semibold text-sm">
+        <div>
+            <label for="categories">By Category</label>
+        <!-- <select class="border-none m-0 p-0" name="categories" id="categories">
+            <option value="one"></option>
+            <option value="two">Two</option>
+            <option value="three">Three</option>
+        </select> -->
+        <i class="fa-solid fa-chevron-down"></i>
+        </div>
+        <div>
+            <label for="categories">By Country</label>
+            <!-- <select class="border-none" name="categories" id="categories">
+                <option value="one"></option>
+                <option value="Kenya">Kenya</option>
+                <option value="S.Sudan">S.Sudan</option>
+                <option value="Uganda">Uganda</option>
+                <option value="Tanzania">Tanzania</option>
+            </select> -->
+            <i class="fa-solid fa-chevron-down"></i>
+        </div>
+        <div>
+            <p>All Products</p>
+        </div>
+        <div>
+            <p>FAQ</p>
+        </div>
+        <div>
+            <label for="categories">Delivery</label>
+            <!-- <select class="border-none" name="categories" id="categories">
+                <option value="one"></option>
+                <option value="Kenya">Doorstep</option>
+                <option value="S.Sudan">Outpost</option>
+            </select> -->
+             <i class="fa-solid fa-chevron-down"></i>
+        </div>
+        <div>
+            <p>Contact</p>
+        </div>
+        
+    </div>
+    <section class="relative">
+        <div>
+            <img class="h-[50vh] w-[100vw] object-cover " src="https://i.pinimg.com/originals/41/a4/41/41a441588766294bd946dbcce221e58b.jpg" alt="Buy your groceries here">
+        </div>
+        <div class="absolute  bottom-[250px] left-[20px]">
+            <i class="fa-solid fa-chevron-left text-3xl"></i>
+        </div>
+        <div class="absolute  bottom-[250px] right-[40px]">
+            <i class="fa-solid fa-chevron-right text-4xl"></i>
+        </div>
+        <div class="absolute bottom-[100px] left-[150px]">
+            <button class="bg-yellow-300 p-4 rounded-full text-white">Shop Now</button>
+        </div>
+    </section>
+</body>
+</html>
