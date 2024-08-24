@@ -1,0 +1,51 @@
+.icon-pack{
+    border-radius: 70px;
+    padding: 30px;
+    border-width: thick;
+    border-color: orange;
+    background-color: #fff;
+}
+.icon{
+    display: absolute;
+    text-align: center;
+    margin-top: -45px;
+
+    
+}
+.icon-details{
+    border: 10px;
+    text-align: center;
+}
+.icon-full{
+    justify-content: center;
+}
+.spec{
+    margin-left: 6rem;
+}
+.sale{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    font-size: 30px;
+    justify-content: center; 
+    margin:3rem 0;  
+}
+.sale >h1{
+    letter-spacing:10px;
+}
+.sale > p{
+    font-size: small;
+    color: gray;
+}
+.sale-btn{
+    display: flex;
+    justify-content:end;
+    background-color: tomato;
+    border-radius: 25px;
+    padding: 0 15px;
+}
+.btn{
+    display: flex;
+    justify-content: end;
+    margin: 2rem 4rem;
+}
