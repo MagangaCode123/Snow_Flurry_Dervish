@@ -1,3 +1,6 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
 .icon-pack{
     border-radius: 70px;
     padding: 30px;
@@ -8,9 +11,7 @@
 .icon{
     display: absolute;
     text-align: center;
-    margin-top: -45px;
-
-    
+    margin-top: -45px;    
 }
 .icon-details{
     border: 10px;
@@ -26,26 +27,61 @@
     display: flex;
     flex-direction: column; 
     align-items: center;
-    font-size: 30px;
+    font-size: 25px;
     justify-content: center; 
     margin:3rem 0;  
 }
 .sale >h1{
     letter-spacing:10px;
+    
 }
 .sale > p{
-    font-size: small;
-    color: gray;
+    font-size: 17px;
+    color: rgba(135, 135, 135, 0.485);
 }
 .sale-btn{
     display: flex;
     justify-content:end;
     background-color: tomato;
-    border-radius: 25px;
+    border-radius: 30px;
     padding: 0 15px;
 }
 .btn{
     display: flex;
     justify-content: end;
     margin: 2rem 4rem;
+}
+.btn-cart{
+    background-color: tomato;
+    border-radius: 30px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.icon-caro{
+    display: absolute;
+    text-align: center;
+}
+.image{
+    max-width: 100%;
+    height: 150px;
+}    
+
+.chev{
+    display: flex;
+    margin-top: 8rem;
+}
+
+.image1{
+    width: 40rem;
+    height: 10rem;
+    
+}
+.image2{
+    width: 40%;
+    height: 200px;
+    float: right;
+    padding: 15px;
+    margin-right: 9rem;
 }
