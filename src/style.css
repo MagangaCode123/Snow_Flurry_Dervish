@@ -51,37 +51,69 @@
     justify-content: end;
     margin: 2rem 4rem;
 }
-.btn-cart{
-    background-color: tomato;
-    border-radius: 30px;
-    margin-top: 20px;
-    padding: 10px;
-    font-size: 15px;
-    letter-spacing: 1px;
-}
+
 .icon-caro{
     display: absolute;
     text-align: center;
 }
-.image{
-    max-width: 100%;
-    height: 150px;
-}    
-
-.chev{
-    display: flex;
-    margin-top: 8rem;
+.cart1{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    object-fit: contain;
 }
-
 .image1{
-    width: 40rem;
-    height: 10rem;
-    
+    width: 400px;
+    height: 200px;
+}
+.cart-btn{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+.cart2{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    object-fit: contain;
 }
 .image2{
-    width: 40%;
+    width: 400px;
     height: 200px;
-    float: right;
-    padding: 15px;
-    margin-right: 9rem;
 }
+.cart-btn2{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+.cart3{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    object-fit: contain;
+}
+.image3{
+    width: 400px;
+    height: 200px;
+}
+.cart-btn3{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+.cart4{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    object-fit: contain;
+}
+.image4{
+    width: 400px;
+    height: 200px;
+}
+.cart-btn4{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+
