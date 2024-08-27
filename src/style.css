@@ -116,4 +116,55 @@
     bottom: 30px;
     left: 20px;
 }
+.conatiner1{
+    display: flex;
+    margin-left: 6rem;
+    
+}
+.big-div{
+    width: 20rem;
+    height: 32rem;
+    margin-right: 25px;
+}
+.big-div > img{
+    width:20rem;
+    height: 25rem;
+    padding: 30px;
+    object-fit: cover;
+}
+.big-div > h2, p{
+    display: flex;
+    justify-content: center;    
+}
+.big-div > button{
+    display: block;
+    margin: auto;
+}
+.small-divs-combine{
+    
+    
+}
+.small-divs{
+    display: flex;
+    width: 50rem;
+    height: 15rem;
+    margin-bottom: 30px;
+}
+.small-divs2{
+    display: flex;
+    width: 50rem;
+    height: 15rem;
+}
+.small-divs .small-divs2 > h2,p,button{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.small-divs > p{
+    
+}
+.small{
+    margin-right: 20px;
+    padding: 10px;
+}
 
