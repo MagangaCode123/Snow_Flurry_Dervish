@@ -49,7 +49,9 @@
 .btn{
     display: flex;
     justify-content: end;
+    align-items: ;
     margin: 2rem 4rem;
+    margin-left: 85rem;
 }
 
 .icon-caro{
@@ -66,10 +68,10 @@
     width: 400px;
     height: 200px;
 }
-.cart-btn{
-    position: absolute;
+.btn-cart{
     bottom: 30px;
     left: 20px;
+    font-size: 12px;
 }
 .cart2{
     position: relative;
@@ -125,6 +127,7 @@
     width: 20rem;
     height: 32rem;
     margin-right: 25px;
+    padding: 20px;
 }
 .big-div > img{
     width:20rem;
@@ -140,10 +143,7 @@
     display: block;
     margin: auto;
 }
-.small-divs-combine{
-    
-    
-}
+
 .small-divs{
     display: flex;
     width: 50rem;
