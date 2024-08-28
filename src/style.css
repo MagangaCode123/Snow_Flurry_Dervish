@@ -168,3 +168,59 @@
     padding: 10px;
 }
 
+.container2{
+  position: relative;
+  /* margin-left: 75px;
+  margin-right: 75px; */
+  margin-top: 30px;
+
+  /* padding: 8px 8px 8px 8px; */
+
+  
+  
+}
+.img1{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    
+    
+}
+.inner-cont{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    
+}
+.parag1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: right;
+    margin-top: 60px;
+    
+}
+.parag2{
+    font-size: 15px;
+    color: white;
+}
+.shop-it{
+    background-color: white  ;
+    color: yellow;
+    border: 2px solid bisque ;
+    padding: 4px 6px ;
+
+    border-radius: 30px;
+
+    font-size:16px;
+
+}
+.maiz{
+    
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    
+}
