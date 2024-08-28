@@ -58,79 +58,113 @@
 }
 .cart1{
     position: relative;
-        object-fit: contain;
+    width: 400px;
+    height: 200px;
+    object-fit: contain;
 }
 .image1{
-    width: 600px;
+    width: 400px;
     height: 200px;
-    margin-bottom: 10px;
- 
 }
 .cart-btn{
     position: absolute;
     bottom: 30px;
     left: 20px;
-    padding: 4px 8px;
-    font-size: 9px;
-    border-radius: 5px;
-    height: auto;
-    width: auto;
-
 }
 .cart2{
     position: relative;
+    width: 400px;
+    height: 200px;
     object-fit: contain;
 }
 .image2{
-    width: 600px;
+    width: 400px;
     height: 200px;
-    
 }
 .cart-btn2{
     position: absolute;
     bottom: 30px;
     left: 20px;
-    padding: 4px 8px;
-    font-size: 9px;
-    border-radius: 5px;
-    height: auto;
-    width: auto;
 }
 .cart3{
     position: relative;
+    width: 400px;
+    height: 200px;
     object-fit: contain;
 }
 .image3{
-    width: 600px;
+    width: 400px;
     height: 200px;
-    margin-bottom: 10px;
 }
 .cart-btn3{
     position: absolute;
     bottom: 30px;
     left: 20px;
-    padding: 4px 8px;
-    font-size: 9px;
-    border-radius: 5px;
-    height: auto;
-    width: auto;
 }
 .cart4{
     position: relative;
-    
+    width: 400px;
+    height: 200px;
     object-fit: contain;
 }
 .image4{
-    width: 600px;
+    width: 400px;
     height: 200px;
 }
 .cart-btn4{
     position: absolute;
     bottom: 30px;
     left: 20px;
-    padding: 4px 8px;
-    font-size: 9px;
-    border-radius: 8px;
-    height: auto;
-    width: auto;
 }
+.conatiner1{
+    display: flex;
+    margin-left: 6rem;
+    
+}
+.big-div{
+    width: 20rem;
+    height: 32rem;
+    margin-right: 25px;
+}
+.big-div > img{
+    width:20rem;
+    height: 25rem;
+    padding: 30px;
+    object-fit: cover;
+}
+.big-div > h2, p{
+    display: flex;
+    justify-content: center;    
+}
+.big-div > button{
+    display: block;
+    margin: auto;
+}
+.small-divs-combine{
+    
+    
+}
+.small-divs{
+    display: flex;
+    width: 50rem;
+    height: 15rem;
+    margin-bottom: 30px;
+}
+.small-divs2{
+    display: flex;
+    width: 50rem;
+    height: 15rem;
+}
+.small-divs .small-divs2 > h2,p,button{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.small-divs > p{
+    
+}
+.small{
+    margin-right: 20px;
+    padding: 10px;
+}
+
