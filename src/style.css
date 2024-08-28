@@ -33,7 +33,6 @@
 }
 .sale >h1{
     letter-spacing:10px;
-    
 }
 .sale > p{
     font-size: 17px;
@@ -49,11 +48,9 @@
 .btn{
     display: flex;
     justify-content: end;
-    align-items: ;
     margin: 2rem 4rem;
     margin-left: 85rem;
 }
-
 .icon-caro{
     display: absolute;
     text-align: center;
@@ -120,8 +117,7 @@
 }
 .conatiner1{
     display: flex;
-    margin-left: 6rem;
-    
+    margin-left: 6rem;    
 }
 .big-div{
     width: 20rem;
@@ -143,7 +139,6 @@
     display: block;
     margin: auto;
 }
-
 .small-divs{
     display: flex;
     width: 50rem;
@@ -159,9 +154,6 @@
     display: flex;
     justify-content: center;
     margin: auto;
-}
-.small-divs > p{
-    
 }
 .small{
     margin-right: 20px;
