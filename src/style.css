@@ -188,16 +188,41 @@
     height: 100px; */
 }
 .foot1{
-    display: flex;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 3rem;
+    margin-top: 50px;
+    margin-left: 50px;
 }
 .icons2{
     display:flex;
-   padding-bottom: 20px;
-   margin-bottom: 60px;
-    margin-left: 30px;
+    justify-content: space-between;
+   /* padding-bottom: 20px;
+   margin-bottom: 60px
+    margin-left: 30px; */
+    padding: 30px;
+     
+}
+.icons2 > .facebook{
+    padding: 10px;
+    color: grey;
+}
+.big-foot2{
+    display: grid;
 }
 .foot2{
     display: flex;
-    justify-content: space-around;
+    grid-template-columns: auto;
+    align-self: start;
     margin: auto;
+}
+.foot2 > .foot3{
+    
+}
+.foot3{
+    
+    padding: 30px;
+}
+.foot4{
+    display: flex;
 }
