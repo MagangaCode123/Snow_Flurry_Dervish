@@ -298,6 +298,13 @@
     padding: 10px;
     color: grey;
 }
+.foot1{
+    margin-top: 20px;
+}
+.icons2{
+    padding-top:10px;
+    margin-top: 10px;
+}
 .big-foot2{
     display: grid;
 }
@@ -315,5 +322,9 @@
     padding: 30px;
 }
 .foot4{
-    display: flex;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.icop{
+    padding-right: 20px;
 }
