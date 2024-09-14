@@ -1,0 +1,24 @@
+
+body{
+    background-image: linear-gradient(to right, 
+    #b58ecc,#5de6de);
+}
+
+.registrationForm{
+    background-color: whitesmoke;
+}
+
+.registrationForm > p{
+    margin-top: 10px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    /* border: solid grey 1.5px; */
+    padding: 20px;
+    font-size: x-large;
+    margin-top: 10px;
+
+    
+}

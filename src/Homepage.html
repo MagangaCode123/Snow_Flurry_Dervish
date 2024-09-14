@@ -21,27 +21,30 @@
         </div>
         
         <div>
-            <p>Free shipping on all orders 49$+/Express</p>
+            <p>Free shipping on all orders ksh5000+/Express</p>
         </div>
         <div class="flex gap-4 py-4">
           <div>
-            <i class="fa-brands fa-square-facebook"></i>
+            <a href="https://www.facebook.com"><i class="fa-brands fa-square-facebook"></i></a>
           </div>
           <div>
-            <i class="fa-brands fa-instagram"></i>
+            <!-- <i class="fa-brands fa-instagram"></i> -->
+            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
           </div>
           <div>
-            <i class="fa-brands fa-twitter"></i>
+            <!-- <i class="fa-brands fa-twitter"></i> -->
+            <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
           </div>
           <div>
-            <i class="fa-brands fa-pinterest"></i>
+            <!-- <i class="fa-brands fa-pinterest"></i> -->
+            <a href="https://www.pinterest.com"><i class="fa-brands fa-pinterest"></i></a>
           </div>
        
         </div>
         <div></div>
        
     </div>
-    <div class="flex justify-around items-center border py-4 shadow-md">
+    <div class="flex  justify-around items-center border py-4 shadow-md">
         <div>
             <p class="text-red-500 text-4xl font-bold">mai<span class="text-blue-400">z</span><span class="text-green-400">o</span></p>
         </div>
@@ -55,45 +58,56 @@
             
            
         </div>
-        <div class="flex gap-4">
-            <div class="flex relative">
+        <div class="badge-container">
+            <div class=" flex relative">
                 <div>
                     <i class="fa-solid fa-cart-shopping"></i>
                 </div>
                 <div class="absolute top-[-20px] right-[-18px]">
-                    <span class="text-xs bg-red-600 rounded-full p-1.5 text-white">12</span>
+                    <span id="badge" class="text-xs bg-red-600 rounded-full p-1.5 text-white">0</span>
                 </div>
                 
             </div>
-            <div>
-                $4556
+            <div class="flex">
+                <span>
+                    $
+                </span>
+                <p id="totalPrice">0</p>
             </div>
         </div>
         <div>
-            <p>Login/Register</p>
+            <!-- <button >Login/Register</button> -->
+            <a href="./Login.html"><button >Login/Register</button></a>
+
         </div>
         
     </div>
     <div class="bg-[rgb(233,233,237)] flex justify-around m-0 py-2 font-semibold text-sm">
-        <div>
+        <div id="openCategory">
             <label for="categories">By Category</label>
-        <!-- <select class="border-none m-0 p-0" name="categories" id="categories">
+       <!-- <select class="border-none m-0 p-0" name="categories" id="categories">
             <option value="one"></option>
             <option value="two">Two</option>
             <option value="three">Three</option>
         </select> -->
+
         <i class="fa-solid fa-chevron-down"></i>
+        <div id="categoryList" class="category1 hidden">
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
         </div>
-        <div>
+        </div>
+
+        <div id="countries">
             <label for="categories">By Country</label>
-            <!-- <select class="border-none" name="categories" id="categories">
-                <option value="one"></option>
-                <option value="Kenya">Kenya</option>
-                <option value="S.Sudan">S.Sudan</option>
-                <option value="Uganda">Uganda</option>
-                <option value="Tanzania">Tanzania</option>
-            </select> -->
+            
             <i class="fa-solid fa-chevron-down"></i>
+            <div id="countryList" class="hidden">
+                <li>Kenya</li>
+                <li>Uganda</li>
+                <li>Tanzania</li>
+            </div>
         </div>
         <div>
             <p>All Products</p>
@@ -101,7 +115,7 @@
         <div>
             <p>FAQ</p>
         </div>
-        <div>
+        <div id="delivery">
             <label for="categories">Delivery</label>
             <!-- <select class="border-none" name="categories" id="categories">
                 <option value="one"></option>
@@ -109,6 +123,11 @@
                 <option value="S.Sudan">Outpost</option>
             </select> -->
              <i class="fa-solid fa-chevron-down"></i>
+             <div id="deliveryOptions" class="hidden">
+                <li>Same Day Delivery(+400ksh)</li>
+                <li>Payment after delivery</li>
+                <li>Shipping</li>
+            </div>
         </div>
         <div>
             <p>Contact</p>
@@ -195,7 +214,7 @@
         <div class="border p-4 icon-caro">
             <img class="image" src="data:image/jpeg;base64,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" alt="">
             <p>Yoosh Green Tea Drink 490ml</p>
-            <h2 class="font-bold"> $1.49</h2>
+            <h2 id="pricing" class="font-bold"> $1.49</h2>
             <button id="addcart" class="bg-yellow-300 p-4 rounded-full text-white btn-card">ADD TO CART</button>
         </div>
 

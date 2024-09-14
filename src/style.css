@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  /* font-style: normal; */
 }
 .icon-pack{
     border-radius: 70px;
@@ -49,6 +54,12 @@
     top: 180px;
     
 }
+
+.badge-container{
+    display: flex;
+    gap: 20px;
+}
+
 
 .container2{
     margin-top: 4rem;
@@ -314,9 +325,7 @@
     align-self: start;
     margin: auto;
 }
-.foot2 > .foot3{
-    
-}
+
 .foot3{
     
     padding: 30px;
@@ -328,3 +337,57 @@
 .icop{
     padding-right: 20px;
 }
+
+.mainRegistrationContainer{
+    display: grid;
+    place-content: center;
+   margin-top: 10vh;
+
+}
+
+.registrationForm{
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    align-content: center;
+    width: 30vw;
+
+    padding: 50px;
+    
+
+   
+}
+
+.reg{
+    margin-top: 8px;
+}
+
+
+
+.form-input{
+   display: flex;
+   flex-direction: column;
+  
+
+}
+
+
+form >div{
+    margin-top: 10px;
+}
+
+.form-input > label{
+    margin: 6px 0;
+}
+
+.form-input > input{
+    padding: 5px;
+}
+
+.submit-btn{
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgba(103, 120, 228, 0.509);
+}
+
